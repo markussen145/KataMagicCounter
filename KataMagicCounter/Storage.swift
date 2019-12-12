@@ -11,10 +11,14 @@ import Foundation
 class Storage{
     
     func save(value: Int) {
-        
+        UserDefaults.standard.set(value, forKey: "valueKey")
     }
     
     func get() -> Int? {
-        return 1
+        return UserDefaults.standard.integer(forKey: "valueKey")
+    }
+    
+    func clear() {
+        UserDefaults.standard.removeObject(forKey: "valuekey")
     }
 }
