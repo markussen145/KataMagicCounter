@@ -15,6 +15,7 @@
 		71C9F3EF23A2509E00BCE952 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71C9F3ED23A2509E00BCE952 /* LaunchScreen.storyboard */; };
 		71C9F3FA23A2509E00BCE952 /* KataMagicCounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C9F3F923A2509E00BCE952 /* KataMagicCounterTests.swift */; };
 		71C9F40523A2509E00BCE952 /* KataMagicCounterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C9F40423A2509E00BCE952 /* KataMagicCounterUITests.swift */; };
+		71C9F41323A251C900BCE952 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C9F41223A251C900BCE952 /* Storage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		71C9F40023A2509E00BCE952 /* KataMagicCounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KataMagicCounterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		71C9F40423A2509E00BCE952 /* KataMagicCounterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KataMagicCounterUITests.swift; sourceTree = "<group>"; };
 		71C9F40623A2509E00BCE952 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71C9F41223A251C900BCE952 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				71C9F3E223A2509C00BCE952 /* AppDelegate.swift */,
 				71C9F3E423A2509C00BCE952 /* SceneDelegate.swift */,
 				71C9F3E623A2509C00BCE952 /* ViewController.swift */,
+				71C9F41223A251C900BCE952 /* Storage.swift */,
 				71C9F3E823A2509C00BCE952 /* Main.storyboard */,
 				71C9F3EB23A2509E00BCE952 /* Assets.xcassets */,
 				71C9F3ED23A2509E00BCE952 /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				71C9F3E723A2509C00BCE952 /* ViewController.swift in Sources */,
+				71C9F41323A251C900BCE952 /* Storage.swift in Sources */,
 				71C9F3E323A2509C00BCE952 /* AppDelegate.swift in Sources */,
 				71C9F3E523A2509C00BCE952 /* SceneDelegate.swift in Sources */,
 			);
