@@ -110,12 +110,12 @@
 				71C9F3E423A2509C00BCE952 /* SceneDelegate.swift */,
 				71C9F3E623A2509C00BCE952 /* ViewController.swift */,
 				71C9F41223A251C900BCE952 /* CounterStorage.swift */,
+				71C9F41523A2597B00BCE952 /* MagicCounter.swift */,
+				71C9F41723A259A100BCE952 /* RandomNumberGenerator.swift */,
 				71C9F3E823A2509C00BCE952 /* Main.storyboard */,
 				71C9F3EB23A2509E00BCE952 /* Assets.xcassets */,
 				71C9F3ED23A2509E00BCE952 /* LaunchScreen.storyboard */,
 				71C9F3F023A2509E00BCE952 /* Info.plist */,
-				71C9F41523A2597B00BCE952 /* MagicCounter.swift */,
-				71C9F41723A259A100BCE952 /* RandomNumberGenerator.swift */,
 			);
 			path = KataMagicCounter;
 			sourceTree = "<group>";
