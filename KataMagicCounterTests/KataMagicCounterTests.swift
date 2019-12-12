@@ -12,29 +12,28 @@ import XCTest
 
 class KataMagicCounterTests: XCTestCase {
     
+    private var storage: DefaultsStorage!
     private var random: MockRandomGenerator!
-    private var storage : Storage!
+    private var magicCounter: MagicCounter!
     
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
         super.setUp()
-        //storage.clear()
-        var random = MockRandomGenerator()
-        var key = "valueKey"
+        storage = DefaultsStorage()
+        random = MockRandomGenerator()
+        //magicCounter = MagicCounter(storage: storage, randomGenerator: random)
+        storage.clear()
         
     }
 
     override func tearDown() {
-        //storage.clear()
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
     
-    func testSave(){
-        //random.value = 99
-    }
-    
-    func testGet(){
-        
+    func testReturnsTheRandomValueIfTheCounterWasNotSavedPreviouslyAndTheRandomValueIsGreaterThan100() {
+        random.value = 101
+        let result = magicCounter.increase()
+        XCTAssertEqual(result, 101)
     }
 
     func testExample() {
