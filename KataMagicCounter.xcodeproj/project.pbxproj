@@ -16,6 +16,7 @@
 		71C9F3FA23A2509E00BCE952 /* KataMagicCounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C9F3F923A2509E00BCE952 /* KataMagicCounterTests.swift */; };
 		71C9F40523A2509E00BCE952 /* KataMagicCounterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C9F40423A2509E00BCE952 /* KataMagicCounterUITests.swift */; };
 		71C9F41323A251C900BCE952 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C9F41223A251C900BCE952 /* Storage.swift */; };
+		71C9F41423A2559300BCE952 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C9F41223A251C900BCE952 /* Storage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -274,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				71C9F3FA23A2509E00BCE952 /* KataMagicCounterTests.swift in Sources */,
+				71C9F41423A2559300BCE952 /* Storage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
