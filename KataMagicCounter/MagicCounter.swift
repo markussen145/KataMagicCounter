@@ -15,6 +15,7 @@ private let randomGenerator: RandomNumberGenerator
 init(storage: CounterStorage, randomGenerator: RandomNumberGenerator) {
     self.storage = storage
     self.randomGenerator = randomGenerator
+    var test
 }
 
 func increase() -> Int {
@@ -22,7 +23,7 @@ func increase() -> Int {
     let randomValue = randomGenerator.randomValue()
     let updatedCounter = randomValue > 100 ? currentCounter + randomValue : currentCounter + 1
     storage.save(counter: updatedCounter)
-    //return updatedCounter
+    return updatedCounter
 }
 
     func decrease() -> Int {
