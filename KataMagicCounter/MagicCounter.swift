@@ -15,7 +15,7 @@ private let randomGenerator: RandomNumberGenerator
 init(storage: CounterStorage, randomGenerator: RandomNumberGenerator) {
     self.storage = storage
     self.randomGenerator = randomGenerator
-    var test : String = 1
+    //var test : String = 1
 }
 
 func increase() -> Int {
